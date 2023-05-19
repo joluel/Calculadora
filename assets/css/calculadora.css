@@ -42,6 +42,12 @@ h1:hover {
     transition: 1.5s;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calculadora {
     width: 200px;
     margin: 0 auto;
@@ -97,6 +103,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 30px;
     text-align: center;
     background-color: black;
     color: white;
