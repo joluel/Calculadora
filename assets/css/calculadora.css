@@ -1,0 +1,103 @@
+
+body {
+    background-color: lightblue;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    background:white;
+    border-radius: 1rem;
+}
+
+a{ 
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:checked {
+    color: lightblue;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1:hover {
+    color: lightblue;
+    transition: 1.5s;
+}
+
+.calculadora {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;background: linear-gradient(to top, #333, #222, #777);
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+#display{
+    width: 190px;
+    height: 100px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    font-size: 4rem;
+    border-radius: .5rem;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: 5px 5px 10px black;
+    transition: .5s;
+}
+
+#color:hover {
+    background-color:orange;
+}
+
+#operacion:hover {
+    background-color: orangered;
+}
+
+#igual {
+    background-color: lightgreen;
+}
+
+#igual:hover {
+    background-color: green;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

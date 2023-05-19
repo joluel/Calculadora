@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/icons/developer/calculator-svgrepo-com.svg">
+    <link rel="stylesheet" href="./assets/css/calculadora.css">
+</head>
+<body>
+    <header>
+        <h1><a href="calculadora.html">Calculadora</a></h1>
+        <nav>
+            <a href="https://github.com/joluel" target="_blank"><img src="./assets/icons/redes sociales/github-142-svgrepo-com.svg" alt="GitHub" width="30px" height="30px" title="GitHub"></a>
+            <a href="https://www.linkedin.com/in/carlos-jose-gonzalez-castellanos-391467237/" target="_blank"><img src="./assets/icons/redes sociales/linkedin-linked-in-svgrepo-com.svg" alt="Linked" width="30px" height="30px" title="Linked"></a>
+            <a href="https://www.youtube.com/channel/UCi6mUdNyidSOSrXGG9cYIPQ" target="_blank"><img src="./assets/icons/redes sociales/youtube-svgrepo-com.svg" alt="" width="30px" height="30px" title="Youtube"></a>
+        </nav>
+    </header>
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <div class="botones">
+            <button id="color" onclick="appenValue('7')">7</button>
+            <button id="color" onclick="appenValue('8')">8</button>
+            <button id="color" onclick="appenValue('9')">9</button>
+            <button id="operacion" onclick="appenValue('-')">-</button>
+            <button id="color" onclick="appenValue('4')">4</button>
+            <button id="color" onclick="appenValue('5')">5</button>
+            <button id="color" onclick="appenValue('6')">6</button>
+            <button id="operacion" onclick="appenValue('/')">/</button>
+            <button id="color" onclick="appenValue('1')">1</button>
+            <button id="color" onclick="appenValue('2')">2</button>
+            <button id="color" onclick="appenValue('3')">3</button>
+            <button id="operacion" onclick="appenValue('*')">*</button>
+            <button id="color" onclick="appenValue('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button id="operacion" onclick="appenValue('.')">.</button>
+            <button id="operacion" onclick="appenValue('+')">+</button>
+            <button id="igual" onclick="calculate('=')">=</button>
+        </div>
+    </div>
+
+    <footer>
+        <p> Desarrollador de Software - Carlos Jose Gonzalez castellanos.</p>
+        <p><strong>WhatsApp:</strong> + 57 324-284-1366</p>
+        <p><strong>Email:</strong> josejhoel89@gmail.com</p>
+        <p>Colombia</p>
+        <p>2023</p>
+    </footer>
+    
+    <script src="./assets/js/calculadora.js"></script>
+</body>
+</html>
